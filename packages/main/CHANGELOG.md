@@ -1,5 +1,15 @@
 # @google/generative-ai
 
+## 0.13.0
+
+### Minor Changes
+
+- 83ec4ac: Expand the model's `countTokens` method to alternatively accept a `GenerateContentRequest`.
+
+### Patch Changes
+
+- 1440a05: Removed the `model` field from the internally formatted payload of `countToken` requests as it was unnecessary.
+
 ## 0.12.0
 
 ### Minor Changes
